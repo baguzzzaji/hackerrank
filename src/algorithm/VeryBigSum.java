@@ -2,9 +2,6 @@ package algorithm;
 
 import java.util.Scanner;
 
-/**
- * Created by bagus on 4/13/16.
- */
 public class VeryBigSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
