@@ -11,11 +11,9 @@ public class AngryProfessor {
         int T = sc.nextInt();
 
         for (int i = 0; i < T; i++) {
-            int N = 0;
-            int K = 0;
             int student = 0;
-            N = sc.nextInt();
-            K = sc.nextInt();
+            int N = sc.nextInt();
+            int K = sc.nextInt();
 
             for (int j = 0; j < N; j++) {
                 if (sc.nextInt() <= 0) {
@@ -23,7 +21,7 @@ public class AngryProfessor {
                 }
             }
 
-            if (student <= K) {
+            if (student < K) {
                 System.out.println("YES");
             } else {
                 System.out.println("NO");
