@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class day7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Map phoneBook = new HashMap<>();
+        Map phoneBook = new HashMap<String, String>();
         int n = scanner.nextInt();
         String name, phoneNumber;
 
